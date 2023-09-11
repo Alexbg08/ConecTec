@@ -147,3 +147,21 @@ form .username{
 /**
  Aquí inician los estilos de registrar estudiante.
  */
+
+.registro{
+    position:  absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    
+}
+.registro h1{
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
+.registro form{
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
