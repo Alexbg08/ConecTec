@@ -149,8 +149,8 @@ form .username{
  */
 
 .registro{
-    position:  absolute;
-    top: 30%;
+    position:  relative;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
@@ -165,3 +165,71 @@ form .username{
     padding: 0 10px;
     box-sizing: border-box; 
 }
+form .nombreE{
+    position: relative;
+    margin: 30px 0;
+}
+
+.nombreE input[type="text"] {
+    margin-top: 40px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.nombreE label {
+    position: absolute;
+    top: 60px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.apellidoE input[type="text"] {
+    margin-top: 35px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.apellidoE label {
+    position: absolute;
+    top: 120px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.emailE input[type="text"] {
+    margin-top: 30px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.emailE label {
+    position: absolute;
+    top: 175px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.carreraE input[type="text"] {
+    margin-top: 33px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.carreraE label {
+    position: absolute;
+    top: 235px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
