@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.formulario{
+    position:  absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    
+}
+.formulario h1{
+    text-align: left;
+    padding: 0 0 10px 0;
+}
+
+.formulario form{
+    padding: 0 10px;
+    box-sizing: border-box; 
+}
+form .username{
+    position: relative;
+    margin: 30px 0;
+}
+
+
+.username label{
+    position: absolute;
+    top: -102%;
+    left: 2px;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.Contrasena label{
+    position: absolute;
+    top: 42%;
+    left: 10px;
+    transform: translateY(50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.recordar{
+    font-size: 12px;
+}
+
+
+.boton input[type="submit"] {
+    width: 30%;
+    height: 50%;
+    border: 1px solid;
+    background-color: #8C30F5;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.registrarse{
+
+    font-size: 12px;
+    top: 42%;
+    left: 10px;
+    transform: translateY(50%);
+}
+
+.registrarseEstudiante{
+
+    font-size: 12px;
+    top: 42%;
+    left: 10px;
+    transform: translateY(50%);
+}
+
+
+.footer-background {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0B0D17; 
+    height: 200px; 
+    z-index: -1; 
+}
+
+.footertextAndroid {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px; 
+    margin-left: 20px; 
+}
+
+.footertextLicencia {
+    color: white;
+    font-size: 12px;
+    margin-top: -15px; 
+    margin-left: 200px; 
+}
+
+.footertextAcercaDe {
+    color: white;
+    font-size: 12px;
+    margin-top: 10px; 
+    margin-left: 20px; 
+}
+
+.footertextCaracteristicas {
+    color: white;
+    font-size: 12px;
+    margin-top: -15px; 
+    margin-left: 105px; 
+}
