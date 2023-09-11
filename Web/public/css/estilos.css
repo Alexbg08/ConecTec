@@ -148,26 +148,18 @@ form .username{
  Aquí inician los estilos de registrar estudiante.
  */
 
-.registro{
+.registro1{
     position:  relative;
     top: 20%;
-    left: 50%;
+    left: 40%;
     transform: translate(-50%, -50%);
-    width: 400px;
+    width: 250px;
+    height: 350px
     
 }
-.registro h1{
+.registro1 h1{
     text-align: left;
     padding: 0 0 10px 0;
-}
-
-.registro form{
-    padding: 0 10px;
-    box-sizing: border-box; 
-}
-form .nombreE{
-    position: relative;
-    margin: 30px 0;
 }
 
 .nombreE input[type="text"] {
@@ -175,7 +167,7 @@ form .nombreE{
     left: 2px;
     transform: translateY(-50%);
     font-size: 16px;
-    pointer-events: none;
+
 }
 
 .nombreE label {
@@ -191,7 +183,6 @@ form .nombreE{
     left: 2px;
     transform: translateY(-50%);
     font-size: 16px;
-    pointer-events: none;
 }
 .apellidoE label {
     position: absolute;
@@ -207,7 +198,6 @@ form .nombreE{
     left: 2px;
     transform: translateY(-50%);
     font-size: 16px;
-    pointer-events: none;
 }
 .emailE label {
     position: absolute;
@@ -222,7 +212,6 @@ form .nombreE{
     left: 2px;
     transform: translateY(-50%);
     font-size: 16px;
-    pointer-events: none;
 }
 .carreraE label {
     position: absolute;
@@ -232,4 +221,96 @@ form .nombreE{
     font-size: 16px;
     pointer-events: none;
 }
+.registro2{
+    position:  relative;
+    top: -35%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 350px
+    
+}
+.carneE label {
+    position: absolute;
+    top: 45px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.carneE input[type="text"] {
+    margin-top: 75px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.numPhoneE input[type="text"] {
+    margin-top: 35px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.numPhoneE label {
+    position: absolute;
+    top: 110px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.contrasenaE input[type="password"] {
+    margin-top: 30px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.contrasenaE label {
+    position: absolute;
+    top: 163px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
 
+.confirmarContrasenaE input[type="password"] {
+    margin-top: 30px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+}
+.confirmarContrasenaE label {
+    position: absolute;
+    top: 220px; 
+    left: 2px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+.botonIngresarE {
+    position: relative;
+    top: -63%;
+    left: 48%; 
+    transform: translateX(-50%) translateY(-50%);
+    width: 100px;
+    height: 150px;
+}
+.botonE input[type="submit"] {
+    border: 1px solid;
+    background-color: #8C30F5;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.ingresarE {
+    position: relative;
+    top: -80%;
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 12px;
+    width: 300px;
+    height: 150px;
+}
