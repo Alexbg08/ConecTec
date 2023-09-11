@@ -123,3 +123,27 @@ form .username{
     margin-top: -15px; 
     margin-left: 105px; 
 }
+.footertextCAyuda {
+    color: white;
+    font-size: 12px;
+    margin-top: -15px; 
+    margin-left: 225px; 
+}
+
+.footertextPolitic {
+    color: white;
+    font-size: 12px;
+    margin-top: -12px; 
+    margin-left: 280px; 
+}
+
+.footertext2023 {
+    color: white;
+    font-size: 8px;
+    margin-top: 14px; 
+    margin-left: 20px; 
+}
+
+/**
+ Aquí inician los estilos de registrar estudiante.
+ */
