@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    flex-grow: 1;
+}
+
+
+.footer-background {
+    background-color: #0B0D17;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: auto; /* Centra horizontalmente */
+}
+.formulario h1 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    pointer-events: none;
+    font-size: 16px;
+    transition: top 0.3s ease;
+}
+
+input[type="text"]:focus + label,
+input[type="password"]:focus + label {
+    top: -20px;
+}
+
+.recordar {
+    font-size: 12px;
+}
+
+.boton input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #8C30F5;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;  
+    margin-top: 20px;
+}
+
+.registrarse {
+    font-size: 12px;
+}
+
+.registrarseEstudiante a {
+    font-size: 12px;
+}
+
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.footer-text {
+    font-size: 12px;
+    margin: 5px;
+}
