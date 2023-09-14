@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Evento</title>
+    <link rel="stylesheet" href="./css/styleCrearEvento.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <div class="form-container">
+            <h1>Creacion de evento</h1>
+            <form method="post">
+                <div class="form-group">
+                   <label for="nombreColaborador">Titulo</label>
+                    <input type="text" class="form-control" id="tituloCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="fechaEvento">Fecha</label>
+                    <input type="date" class="form-control" id="fechaCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="correoColaborador">Duración</label>
+                    <input type="text" class="form-control" id="duracionCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="correoColaborador">Responsables</label>
+                    <input type="text" class="form-control" id="responsablesCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="correoColaborador">Requisitos especiales</label>
+                    <input type="text" class="form-control" id="requisitosEspecialesCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="correoColaborador">Descripción</label>
+                    <input type="text" class="form-control" id="descripcionCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="correoColaborador">Lugar</label>
+                    <input type="text" class="form-control" id="lugarCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="correoColaborador">Categoria</label>
+                    <input type="text" class="form-control" id="categoriaCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="correoColaborador">Capacidad de estudiantes</label>
+                    <input type="text" class="form-control" id="capacidadCreacionEvento" required>
+                </div>
+                <div class="form-group">
+                    <label for="descripcionColaborador">Colaborador</label>
+                    <input type="text" class="form-control" id="colaboradorCreacionEvento" required>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="guardarCreacionEvento()">Crear Evento</button>
+            </form>
+        </div>
+    </div>
+    <div class="ingresarColaborador">
+        ¿Ya tienes una cuenta? <a href="index.html">Ingresar</a>
+    </div>
+    <div class="footer-background">
+        <img src="images/ConectLogo.png">
+        <div class="footer-links">
+            <div class="footer-link">Próximamente en Android</div>
+            <div class="footer-link">Licencia</div>
+            <div class="footer-link">Acerca de</div>
+            <div class="footer-link">Características</div>
+            <div class="footer-link">Ayuda</div>
+            <div class="footer-link">Política privada</div>
+        </div>
+        <div class="footertext2023">
+            © 2023  ConecTec. Todos los derechos reservados
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore-compat.js"></script>
+    <script src="configuracion.js"></script>
+    <script src="guardar.js"></script>
+</body>
+</html>
