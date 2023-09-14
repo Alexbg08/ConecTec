@@ -4,67 +4,61 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    height: 100vh; /* Ajustar la altura al 100% de la ventana */
+    overflow: hidden; /* Evitar scroll vertical */
 }
 
 .container {
-    flex-grow: 1;
-}
-
-.footer-background {
-    background-color: #0B0D17;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ajustar la altura al 100% del contenedor principal */
     padding: 20px;
-    text-align: center;
-    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
 .logo {
-    max-width: 100%;
+    max-width: 100px;
     height: auto;
+    margin-right: 20px;
 }
 
-.registrocolaborador {
+.form-container {
     width: 100%;
     max-width: 400px;
     padding: 20px;
     box-sizing: border-box;
-    margin: auto; /* Centra horizontalmente */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Centra horizontalmente */
-    justify-content: center; /* Centra verticalmente */
-    text-align: center; /* Alinea el texto al centro */
-}
-
-.registrocolaborador h1 {
-    text-align: left;
-    padding-bottom: 10px;
-}
-
-.input-container {
-    position: relative;
-    margin: 20px 0; /* Espacio vertical entre los campos */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
-label {
+.form-container h1 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.form-group {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.label {
     font-size: 16px;
     transition: all 0.3s ease;
     transform-origin: top left;
-    transform: translateY(0); /* Inicialmente, las etiquetas están a la par de los inputs */
+    transform: translateY(0);
     color: #666;
-    margin-bottom: 5px; /* Espacio vertical entre etiquetas y inputs */
+    margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="password"],
-input[type="tel"] {
+.form-control {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -72,10 +66,8 @@ input[type="tel"] {
     font-size: 16px;
 }
 
-input[type="text"]:focus + label,
-input[type="password"]:focus + label,
-input[type="tel"]:focus + label {
-    transform: translateY(-15px); /* Alinea la etiqueta arriba del campo al enfocar */
+.form-control:focus + .label {
+    transform: translateY(-15px);
     color: #000;
 }
 
@@ -95,11 +87,23 @@ input[type="tel"]:focus + label {
     font-size: 12px;
 }
 
-.footer-content {
+.footer-background {
+    background-color: #0B0D17;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+.footer-link {
+    font-size: 12px;
+    margin: 5px;
 }
 
 .footer-logo {
@@ -108,7 +112,7 @@ input[type="tel"]:focus + label {
     margin-right: 20px;
 }
 
-.footer-text {
+.footertext2023 {
     font-size: 12px;
     margin: 5px;
 }
