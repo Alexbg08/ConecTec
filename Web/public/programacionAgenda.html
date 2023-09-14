@@ -13,21 +13,21 @@
         <div class="form-container">
             <h1>Programación de Evento</h1>
             <form method="post">
-                <div class="form-group">
+                <div class="nombreEvento">
                     <label for="nombreColaborador">Nombre del evento</label>
-                    <input type="text" class="form-control" id="nombreColaborador" required>
+                    <input type="text" class="form-control" id="nombreEvento" required>
                 </div>
-                <div class="form-group">
+                <div class="fechaEvento">
                     <label for="fechaEvento">Fecha del evento</label>
                     <input type="date" class="form-control" id="fechaEvento" required>
                 </div>
                 <div class="form-group">
-                    <label for="correoColaborador">Responsables</label>
-                    <input type="text" class="form-control" id="correoColaborador" required>
+                    <label for="responsablesA">Responsable</label>
+                    <input type="text" class="form-control" id="responsablesA" required>
                 </div>
                 <div class="form-group">
-                    <label for="descripcionColaborador">Recursos</label>
-                    <input type="text" class="form-control" id="descripcionColaborador" required>
+                    <label for="RecursosAgenda">Recursos</label>
+                    <input type="text" class="form-control" id="RecursosAgenda" required>
                 </div>
             </form>
             <button type="button" class="btn btn-primary" onclick="guardarAgenda()">Registrar Evento</button>

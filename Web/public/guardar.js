@@ -37,8 +37,22 @@ function guardarColaborador(){
     .catch((error) => {
         alert("Registro incorrecto")
     });
-
-
-
 }
 
+function guardarAgenda(){
+
+    db.collection("agenda").add({
+        nombreEvento: document.getElementById("nombreEvento").value,
+        fechaEvento: document.getElementById("fechaEvento").value,
+        responsablesA: document.getElementById("responsablesA").value,
+        RecursosAgenda: document.getElementById("RecursosAgenda").value
+
+
+    })
+    .then((docRef) => {
+        alert("Registro correcto")
+    })
+    .catch((error) => {
+        alert("Registro incorrecto")
+    });
+}
