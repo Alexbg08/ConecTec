@@ -75,6 +75,41 @@ function guardarCreacionEvento(){
     })
     .then((docRef) => {
         alert("Registro correcto")
+        window.location.href = 'menuAsociacion.html';
+    })
+    .catch((error) => {
+        alert("Registro incorrecto")
+    });
+
+}
+function guardarAgenda(){
+    db.collection("programarEventos").add({
+        nombreEvento: document.getElementById("nombreEvento").value,
+        fechaEvento: document.getElementById("fechaEvento").value,
+        responsablesA: document.getElementById("responsablesA").value,
+        RecursosAgenda: document.getElementById("RecursosAgenda").value
+        
+    })
+    .then((docRef) => {
+        alert("Registro correcto")
+        window.location.href = 'menuAsociacion.html';
+    })
+    .catch((error) => {
+        alert("Registro incorrecto")
+    });
+
+}
+function guardarFormulario(){
+    db.collection("formularioPropuestas").add({
+        EventoFor: document.getElementById("EventoFor").value,
+        TematicaFor: document.getElementById("TematicaFor").value,
+        objetivoFor: document.getElementById("objetivoFor").value,
+        actividadesFor: document.getElementById("actividadesFor").value,
+        cantidadFor: document.getElementById("cantidadFor").value
+        
+    })
+    .then((docRef) => {
+        alert("Registro correcto")
         window.location.href = 'menuEstudiantes.html';
     })
     .catch((error) => {

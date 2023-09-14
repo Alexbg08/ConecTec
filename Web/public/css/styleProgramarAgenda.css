@@ -6,15 +6,15 @@ body {
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Ajustar la altura al 100% de la ventana */
-    overflow: hidden; /* Evitar scroll vertical */
+    height: 100vh; 
+    overflow: hidden; 
 }
 
 .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%; /* Ajustar la altura al 100% del contenedor principal */
+    height: 100%; 
     padding: 20px;
     box-sizing: border-box;
 }

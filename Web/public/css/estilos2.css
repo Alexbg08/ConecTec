@@ -31,12 +31,12 @@ body {
     max-width: 400px;
     padding: 20px;
     box-sizing: border-box;
-    margin: auto; /* Centra horizontalmente */
+    margin: auto; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra horizontalmente */
-    justify-content: center; /* Centra verticalmente */
-    text-align: center; /* Alinea el texto al centro */
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
 }
 
 .registrocolaborador h1 {
@@ -46,7 +46,7 @@ body {
 
 .input-container {
     position: relative;
-    margin: 20px 0; /* Espacio vertical entre los campos */
+    margin: 20px 0; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,9 +57,9 @@ label {
     font-size: 16px;
     transition: all 0.3s ease;
     transform-origin: top left;
-    transform: translateY(0); /* Inicialmente, las etiquetas están a la par de los inputs */
+    transform: translateY(0); 
     color: #666;
-    margin-bottom: 5px; /* Espacio vertical entre etiquetas y inputs */
+    margin-bottom: 5px; 
 }
 
 input[type="text"],
@@ -75,7 +75,7 @@ input[type="tel"] {
 input[type="text"]:focus + label,
 input[type="password"]:focus + label,
 input[type="tel"]:focus + label {
-    transform: translateY(-15px); /* Alinea la etiqueta arriba del campo al enfocar */
+    transform: translateY(-15px); 
     color: #000;
 }
 
