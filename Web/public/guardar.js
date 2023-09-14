@@ -10,6 +10,7 @@ function guardar(){
     })
     .then((docRef) => {
         alert("Registro correcto")
+        window.location.href = 'index.html';
     })
     .catch((error) => {
         alert("Registro incorrecto")
@@ -25,11 +26,11 @@ function guardarColaborador(){
         correoColaborador: document.getElementById("correoColaborador").value,
         descripcionColaborador: document.getElementById("descripcionColaborador").value,
         contraseñaColaborador: document.getElementById("contraseñaColaborador").value
-
         
     })
     .then((docRef) => {
         alert("Registro correcto")
+        window.location.href = 'index.html';
     })
     .catch((error) => {
         alert("Registro incorrecto")
@@ -46,11 +47,11 @@ function guardarAsociacion(){
         CodigoAsociacion: document.getElementById("CodigoAsociacion").value,
         IntegranteAsociacion: document.getElementById("IntegranteAsociacion").value,
         contrasenaAsociacion: document.getElementById("contrasenaAsociacion").value
-
         
     })
     .then((docRef) => {
         alert("Registro correcto")
+        window.location.href = 'index.html';
     })
     .catch((error) => {
         alert("Registro incorrecto")
@@ -74,6 +75,7 @@ function guardarCreacionEvento(){
     })
     .then((docRef) => {
         alert("Registro correcto")
+        window.location.href = 'menuEstudiantes.html';
     })
     .catch((error) => {
         alert("Registro incorrecto")
